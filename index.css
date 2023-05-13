@@ -1,0 +1,139 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    padding-left: 40px;
+    margin-left: 50px;
+    margin-top: 20px;
+  }
+  
+  li {
+    float: left;
+    margin-left: 260px;
+    
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+  }
+  .nav-bar{
+    display: flex;
+    margin-left: 60px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+.first-section{
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.big-text{
+    font-size: 80px;
+}
+.small-big-text{
+    font-size: 40px;
+}
+.half-width{
+    width: 50%;
+}
+section{
+    display: flex;
+}
+p{
+    font-size: 30px;
+}
+button{
+    width: 150px;
+    height: 50px;
+    background-color: orange;
+    font-size: 20px;
+    color: white;
+    border-radius: 30px;
+    background-image: linear-gradient(rgb(205, 213, 171), rgb(232, 94, 52));
+}
+.first-image{
+
+    background-image: url(images/shapes/Group\ 8450.png);
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-position-y: 100%;
+}
+.about-me-section{
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 50px;
+    padding: 40px;
+}
+.big-img{
+    width: 80%;
+    padding-top: 50px;
+    margin-left: 80px;
+}
+.recipie-section{
+    text-align: center;
+    padding: 30px;
+    margin: 10px 200px;
+}
+.recipie-card{
+    align-items: center;
+    border: 2px solid gray;
+    padding: 10px;
+    margin: 30px;
+    width: 500px;
+    height: 700px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 20px;
+    
+}
+.recipie-img{
+    width: 500px;
+    height: 400px;
+}
+.recipie-title{
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.media-section{
+    display: flex;
+    justify-content: center;
+    margin: 150px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    font-size: 2em;
+
+}
+.media{
+    margin: 40px;
+}
+.footer{
+    background-color: rgb(16, 16, 43);
+    height: 300px;
+    color: white;
+    text-align: center;
+    padding-top: 90px;
+}
+
